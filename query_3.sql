@@ -1,0 +1,4 @@
+SELECT AVG(grade) 
+FROM GRADES 
+WHERE course_id=1 and STUDENTS_ID IN 
+(SELECT ID FROM STUDENTS WHERE groups_id=1) 
