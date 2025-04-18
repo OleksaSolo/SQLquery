@@ -1,5 +1,3 @@
 # SQLquery
  SQLquery
 
-
-
